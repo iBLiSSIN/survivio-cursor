@@ -9,8 +9,20 @@
   ],
   "content_scripts": [
     {
-      "matches": [
-        "https://surviv.io/"
+            "matches": [
+                "*://surviv.io/*",
+                "*://surviv2.io/*",
+                "*://2dbattleroyale.com/*",
+                "*://2dbattleroyale.org/*",
+                "*://piearesquared.info/*",
+                "*://thecircleisclosing.com/*",
+                "*://secantsecant.com/*",
+                "*://parmainitiative.com/*",
+                "*://ot38.club/*",
+                "*://drchandlertallow.com/*",
+                "*://ptr.surviv.io/*",
+                "*://iceproxy.herokuapp.com/*",
+                "*://c79geyxwmp1zpas3qxbddzrtytffta.ext-twitch.tv/*"
       ],
       "js": [
         "/content_script.js"
