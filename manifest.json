@@ -7,11 +7,6 @@
   "permissions": [
     "activeTab"
   ],
-  "applications": {
-    "gecko": {
-      "id": "survivio_cursor@email.com"
-    }
-  },
   "content_scripts": [
     {
       "matches": [
